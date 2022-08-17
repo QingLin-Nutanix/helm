@@ -65,6 +65,8 @@ password: Nutanix.123
 
 secretName: ntnx-pc-secret
 
+peSecretName: ntnx-pe-secret
+
 # Nutanix Prism Elements Existing Secret
 #
 # if set to false a new secret will not be created
