@@ -50,6 +50,7 @@ parameters:
     storageType: NutanixFiles
     nfsServer: {{ .Values.fileHost }}
     nfsPath: {{ .Values.filePath }}
+allowVolumeExpansion: true
 reclaimPolicy: {{ .Values.fileClassRetention }}
 {{- end }}
 ---
